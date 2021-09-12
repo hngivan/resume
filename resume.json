@@ -1,0 +1,210 @@
+{
+    "meta": {
+        "theme": "kendall"
+    },
+    "basics": {
+        "name": "Ivan Prokofev",
+        "label": "Senior Payment Fraud Analyst",
+        "picture": "",
+        "email": "prokofev.ivan@gmail.com",
+        "phone": "+31639397702",
+        "birth": {
+            "date": "1990-12-11"
+        },
+        "summary": "<ul><li>Intimately familiar with AWS and the lot of it's services;</li><li>Expert knowledge on creating and maintaining Kubernetes clusters;</li><li>2+ years of building and maintaining CI/CD pipelines;</li><li>5+ years of scripting, primarily Python and Bash, although I have some basic experience with Go as well;</li><li>Solid UNIX experience;</li><li>Firm knowledge of TCP/IP network stack;</li><li>Extensive expertise in monitoring and improving the reliability of complex environments, as well as organising and improving incident management;</li></li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>Good communication skills and a sturdy personality, stay concentrated and polite at all times</li></ul>",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Haarlem",
+            "countryCode": "NL",
+            "region": ""
+        },
+        "profiles": [{
+          "network": "LinkedIn",
+          "username": "Ivan",
+          "url": "https://www.linkedin.com/in/ivan-prokofev-1aa05aa0"
+            }]
+    },
+    "work": [
+        {
+            "name": "Booking.Com",
+            "position": "Senior PaymentFraud Analyst",
+            "website": "https://booking.com/",
+            "startDate": "2021-03-01",
+            "summary": "<p>Manage multiple (7 to be exact) Kubernetes clusters: running on AWS nodes; maintained with Kops and custom Python scripts.</p><p>Develop CI/CD pipelines: Groovy and Python scripts running on multiple Jenkins instances as well as managing 3rd party CI tools (e.g. TravisCI).</p><p>Manage AWS infrastructure as code: Terraform, Ansible, Chef, Packer, etc.</p><p>Upkeep and develop infrastructure monitoring and logs: Prometheus, Thanos, Athena, Grafana, ELK stack, self-managed Elasticsearch, AWS Elasticsearch cluster, Datadog, New Relic, etc.</p><p>Ongoing work on building a high-security environment together with Application Security Team: integrate 3rd party security tools (Snyk, Checkmarx, Lightspin); build pipelines based on these tools; maintain and ACL network policies.</p><p>Develop various dev-tools: K8S production clusters access tool; production RDS access tool and a couple of slack bots.</p>",
+            "location": "Moscow",
+            "highlights": [
+            "Work with a high-load, 200 000+ rpm environment.",
+            "Provide 24/7 on-call support for the entire R&D team one week per month.",
+            "Redefined logs collection and delivery infrastructure multiple times. From pure ELK with K8S-based components to New Relic Logs (replaced self-managed Elasticsearch) with other components distributed between K8S and standalone AWS ec2 instances with focus on redundancy and cost optimisation. Created a fast and reliable pipeline that bootstraps and deploys components along the way",
+            "Participated in eliminating the consequences of Codecov security incident 2021 which included developing the procedure and the code required to change over 200 AWS RDS instances' passwords; rolling over the logs infrastructure, packed with RegExes to catch and remove sensitive data before transmitting it to a 3rd party (New Relic), etc.",
+            "Participated in developing and deploying what we call the Multicluster. Haproxy-based solution with a Django backend that is responsible for distributing traffic between multiple Kubernetes clusters. Allows us to scale the number of K8S clusters according to the average load and easily upgrade our infrastructure with zero risk for our Production environment."
+            ]
+        },
+        {
+            "name": "Gett",
+            "position": "Monitoring Engineer",
+            "website": "https://gett.com/",
+            "startDate": "2016-02-01",
+            "endDate": "2018-11-26",
+            "summary": "Had been given a chance to concentrate my effort on creating and maintaining various monitoring solutions.<p>The purpose was to provide business metrics not covered in the core infrastructure monitoring and ensure they are available and collected 24/7.</p><p>To achieve this we used a combination of Grafana (with InfluxDB as it's time-series db), Prometheus and custom scripts running inside a docker container.</p><p>All of the above ran inside a Kubernetes cluster making day to day communication with DevOps team a hard requirement.</p>",
+            "location": "Moscow"
+        },
+        {
+            "name": "Gett",
+            "position": "TechSupport Engineer",
+            "website": "https://gett.com/",
+            "startDate": "2015-10-12",
+            "endDate": "2016-02-01",
+            "summary": "Back when I joined Gett it was a medium-sized startup with under 200 employees in Moscow, Tel Aviv and London offices combined. Out of those 200 only about 60 people were R&D-related staff.<p>My task was to provide full technical support to Operations representatives in all three countries. This included serving as a focal point between Product Managers and Ops, creating and managing JIRA issues (be it bugs or feature requests), managing settings change requests as well as actually changing the settings via UI and, later, APIs.</p><p>Naturally a lot of tasks had been routine ones and were automated via bash, python, ruby and even visual basic (sic!) scripts.</p>",
+            "location": "Moscow"
+        },
+        {
+            "name": "VimpelCom (currently VEON)",
+            "position": "CRM-applications Engineer",
+            "website": "https://www.veon.com/",
+            "startDate": "2013-07-01",
+            "endDate": "2015-06-10",
+            "summary": "Worked with Amdocs and Comverse billing solutions for one of the top3 mobile services provider in Russia.<p>Was responsible for solving incoming tickets and handling any related maintenance.</p><p>Communicated with developers on a regular basis to define bugs, feature requests and close gaps in the existing documentation.</p>",
+            "location": "Moscow"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Moscow City Government University of Management",
+            "area": "Civil Law",
+            "studyType": "Master degree",
+            "startDate": "2005-01-01",
+            "endDate": "2011-01-01",
+            "gpa": "",
+            "location": "Moscow",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Programming",
+            "keywords": [
+                "Python",
+                "Bash",
+                "Go (basic knowledge)"
+            ]
+        },
+        {
+            "name": "Container Orchestration",
+            "keywords": [
+                "Kubernetes",
+                "Kops",
+                "AWS EKS",
+                "Docker"
+            ]
+        },
+        {
+            "name": "CI/CD tools",
+            "keywords": [
+                "Jenkins",
+                "TravisCI",
+                "Github"
+            ]
+        },
+        {
+            "name": "Monitoring and Alerting",
+            "keywords": [
+                "Prometheus",
+                "Thanos",
+                "Grafana",
+                "Datadog",
+                "AWS Cloud Watch",
+                "New Relic",
+                "Pager Duty"
+            ]
+        },
+        {
+            "name": "Infrastructure as code",
+            "keywords": [
+                "Terraform",
+                "Ansible",
+                "Packer",
+                "Vagrant",
+                "Chef",
+                "AWS Lambda"
+            ]
+        },
+        {
+            "name": "Cloud providers",
+            "keywords": [
+                "Amazon Web Services"
+            ]
+        },
+        {
+            "name": "Databases & Key-Value stores",
+            "keywords": [
+                "SQL",
+                "Postgres",
+                "MySql",
+                "Presto / Trino",
+                "AWS RDS",
+                "Redis",
+                "MongoDB",
+                "DynamoDB",
+                "Credstash",
+                "Consul"
+            ]
+        },
+        {
+            "name": "Message brokers",
+            "keywords": [
+                "CloudAMQP",
+                "RabbitMQ",
+                "AWS RabbitMQ"
+            ]
+        },
+        {
+            "name": "Logs infrastructure",
+            "keywords": [
+                "ELK",
+                "Logstash",
+                "Filebeat",
+                "Elasticsearch",
+                "AWS Elasticsearch"
+            ]
+        },
+        {
+            "name": "Network infrastructure",
+            "keywords": [
+                "AWS ELB",
+                "AWS NLB",
+                "AWS ALB",
+                "CloudFlare",
+                "Nginx",
+                "HAproxy"
+            ]
+        },
+        { 
+            "name": "Ticket management system",
+            "keywords": [
+                "JIRA"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Russian",
+            "fluency": "native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "An avid gamer (both a video- and a board- one)"
+        },
+        {
+            "name": "Huge IoT / Home automation enthusiast"
+        }
+    ]
+}
