@@ -27,12 +27,12 @@
     },
     "work": [
         {
-            "name": "Booking.Com",
+            "name": "Booking.com",
             "position": "Senior PaymentFraud Analyst",
             "website": "https://booking.com/",
             "startDate": "2021-03-01",
             "summary": "<p>Manage multiple (7 to be exact) Kubernetes clusters: running on AWS nodes; maintained with Kops and custom Python scripts.</p><p>Develop CI/CD pipelines: Groovy and Python scripts running on multiple Jenkins instances as well as managing 3rd party CI tools (e.g. TravisCI).</p><p>Manage AWS infrastructure as code: Terraform, Ansible, Chef, Packer, etc.</p><p>Upkeep and develop infrastructure monitoring and logs: Prometheus, Thanos, Athena, Grafana, ELK stack, self-managed Elasticsearch, AWS Elasticsearch cluster, Datadog, New Relic, etc.</p><p>Ongoing work on building a high-security environment together with Application Security Team: integrate 3rd party security tools (Snyk, Checkmarx, Lightspin); build pipelines based on these tools; maintain and ACL network policies.</p><p>Develop various dev-tools: K8S production clusters access tool; production RDS access tool and a couple of slack bots.</p>",
-            "location": "Moscow",
+            "location": "Amsterdam",
             "highlights": [
             "Work with a high-load, 200 000+ rpm environment.",
             "Provide 24/7 on-call support for the entire R&D team one week per month.",
@@ -42,13 +42,13 @@
             ]
         },
         {
-            "name": "Gett",
-            "position": "Monitoring Engineer",
+            "name": "Booking.com",
+            "position": "PaymentFraud Analyst",
             "website": "https://gett.com/",
-            "startDate": "2016-02-01",
-            "endDate": "2018-11-26",
-            "summary": "Had been given a chance to concentrate my effort on creating and maintaining various monitoring solutions.<p>The purpose was to provide business metrics not covered in the core infrastructure monitoring and ensure they are available and collected 24/7.</p><p>To achieve this we used a combination of Grafana (with InfluxDB as it's time-series db), Prometheus and custom scripts running inside a docker container.</p><p>All of the above ran inside a Kubernetes cluster making day to day communication with DevOps team a hard requirement.</p>",
-            "location": "Moscow"
+            "startDate": "2018-05-01",
+            "endDate": "2021-03-01",
+            "summary": "Detection & Prevention Team:.<p>Responsible for the detection and elimination of global and local payments trends</p><p>Responsible for the detection and elimination of global and local payments trends.</p><p>Machine learning performance analyses.</p>",
+            "location": "Amsterdam"
         },
         {
             "name": "Gett",
