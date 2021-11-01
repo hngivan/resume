@@ -1,0 +1,31 @@
+version: '1'
+services:
+
+    serve:
+        image: hngivan/jsonresume
+        working_dir: /data/node_modules/jsonresume-theme-kendall-ivan
+        command: serve --theme .
+        logging:
+            driver: json-file
+            options:
+                max-size: "10m"
+                max-file: "5"
+        volumes:
+            - ./resume.json:/data/node_modules/jsonresume-theme-kendall-ivan/resume.json:ro
+        ports:
+            - "4000:4000"
+
+    build:
+        build: .
+        image: hngivan/jsonresume
+        command: export --theme kendall /tmp/resume_output/prokofev.html
+        volumes:
+            - ../blog/public/cv/:/tmp/resume_output/
+            - ./resume.json:/data/resume.json:ro
+
+    build-pdf:
+        image: pink33n/html-to-pdf
+        command: --url file:///workspace/prokofev.html --pdf prokofev.pdf --scale 0.90
+        privileged: true
+        volumes:
+            - ../blog/public/cv:/workspace
