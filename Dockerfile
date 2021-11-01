@@ -10,7 +10,7 @@ WORKDIR /data
 RUN apk --no-cache add npm git chromium
 RUN npm init -y
 RUN npm install resume-cli@3.0.5
-RUN npm install jsonresume-theme-kendall jsonresume-theme-kendall-ivan
+RUN npm install jsonresume-theme-kendall jsonresume-theme-kendall-ksenia
 
 # use sed to make the webserver available for the Docker container to map
 RUN sed -i~ "s/localhost/0.0.0.0/g" \
