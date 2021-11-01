@@ -28,5 +28,4 @@ services:
         command: --url file:///workspace/prokofev.html --pdf prokofev.pdf --scale 0.90
         privileged: true
         volumes:
-            - ../blog/public/cv/:/tmp/resume_output/
-            - ./resume.json:/data/resume.json:ro
+            - ../blog/public/cv:/workspace
