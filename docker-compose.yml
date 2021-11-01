@@ -24,7 +24,7 @@ services:
             - ./resume.json:/data/resume.json:ro
 
     build-pdf:
-        image: pink33n/html-to-pdf
+        image: hngivan/html-to-pdf
         command: --url file:///workspace/prokofev.html --pdf prokofev.pdf --scale 0.90
         privileged: true
         volumes:
