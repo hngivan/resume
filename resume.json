@@ -5,7 +5,7 @@
     "basics": {
         "name": "Ivan Prokofev",
         "label": "Senior Payment Fraud Analyst",
-        "picture": "./ivan.jpeg",
+        "image": "./ivan.jpeg",
         "email": "prokofev.ivan@gmail.com",
         "phone": "+31639397702",
         "birth": {
