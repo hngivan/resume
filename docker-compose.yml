@@ -3,7 +3,7 @@ services:
 
     serve:
         image: hngivan/jsonresume
-        working_dir: /data/node_modules/jsonresume-theme-kendall-ivan
+        working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
         command: serve --theme .
         logging:
             driver: json-file
@@ -11,7 +11,7 @@ services:
                 max-size: "10m"
                 max-file: "5"
         volumes:
-            - ./resume.json:/data/node_modules/jsonresume-theme-kendall-ivan/resume.json:ro
+            - ./resume.json:/data/node_modules/jsonresume-theme-kendall-ksenia/resume.json:ro
         ports:
             - "4000:4000"
 
