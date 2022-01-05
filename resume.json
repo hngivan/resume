@@ -85,7 +85,7 @@
         {
             "name": "Analytical tools",
             "keywords": [
-                "Rstudio",
+                "Rstudio (Shiny)",
                 "Python (Pyspark, Pandas)",
                 "Elastic Search", 
                 "SQL",
