@@ -31,13 +31,8 @@
             "position": "Senior Payment Fraud Analyst",
             "website": "https://booking.com/",
             "startDate": "2021-03-01",
-            "summary":"<p>Maintaining existing and new processes for data and automation on Recovery side.</p><p>Managed a sub team which is controlling regions for fraud activity.</p><p>Support Product team for future of the model by performing analysis on impact and implementing features for operation team.</p>",
-            "location": "Amsterdam",
-            "highlights": [
-            "Built from scratch chargeback on payout method (VCC) process.",
-            "Improved technical standards across recovery team.",
-            "Built entirely new and independent schema, dashboards for key metrics, alerting and a solution for automation rule identification and tracking."
-            ]
+            "summary":"<p>Managing an operation sub team who is focusing on specific regions. Writing rules to reject risky traffic or reroute to review.</p><p>Designing and building recovery workflows and putting relevant monitoring and dashboards in place to review key metrics and any new chargeback trends that were missed by Prevention team or ML model.</p><p>Working closely with product and engineering teams on new features implementation. Constantly providing feedbacks about ML performance and  the general improvements of fraud detection and prevention.</p><p>Cooperating with senior management to create relevant reporting on the team/department KPI(s). </p><p>Providing in-depth analysis and strategical outlook related to the payment fraud prevention and recovery products on both main and new verticals.</p><p>Working with 3rd party fraud vendors to improve overall fraud performance.</p>",
+            "location": "Amsterdam"
         },
         {
             "name": "Booking.com",
@@ -86,7 +81,8 @@
             "name": "Analytical tools",
             "keywords": [
                 "Rstudio (Shiny)",
-                "Python (Pyspark, Pandas)",
+                "Python",
+                "Apache Spark",
                 "Elastic Search", 
                 "SQL",
                 "Tableau"
