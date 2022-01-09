@@ -11,7 +11,7 @@
         "birth": {
             "date": "1990-12-11"
         },
-        "summary":"<ul><li>10 + years expirience in Fraud prevention;</li><li>6+ years expiriense work with SQL varieties;</li><li>4+ years of Rstudio, Python(PySpark, Pandas libraries);</li><li> Energised by the challenges and opportunities offered within a fast-paced environment;</li></ul>",
+        "summary":"<p>Senior fraud analyst with over 10 years of experience working in the fraud prevention domain.</p><p>Conducting in-depth analysis of rules/ML features, setting team metrics, building workflows to simplify operation tasks, mentoring peers and managing incidents. Improving customers and partners interaction experience with payment platform by using advanced analytical tools( i.e PySpark, Python, Tableau, Hive, SQL, Rstudio, Elastic Search).</p>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -21,8 +21,8 @@
         },
         "profiles": [{
           "network": "LinkedIn",
-          "username": "Ivan",
-          "url": "https://www.linkedin.com/in/ivan-prokofev-1aa05aa0"
+          "username": "Ivan Prokofev",
+          "url": "https://www.linkedin.com/in/iprokofev/"
             }]
     },
     "work": [
@@ -31,7 +31,7 @@
             "position": "Senior Payment Fraud Analyst",
             "website": "https://booking.com/",
             "startDate": "2021-03-01",
-            "summary":"<p>Managing an operation sub team who is focusing on specific regions. Writing rules to reject risky traffic or reroute to review.</p><p>Designing and building recovery workflows and putting relevant monitoring and dashboards in place to review key metrics and any new chargeback trends that were missed by Prevention team or ML model.</p><p>Working closely with product and engineering teams on new features implementation. Constantly providing feedbacks about ML performance and  the general improvements of fraud detection and prevention.</p><p>Cooperating with senior management to create relevant reporting on the team/department KPI(s). </p><p>Providing in-depth analysis and strategical outlook related to the payment fraud prevention and recovery products on both main and new verticals.</p><p>Working with 3rd party fraud vendors to improve overall fraud performance.</p>",
+            "summary":"<p>• Managing an operation sub team who is focusing on specific regions. Writing rules to reject risky traffic or reroute to review.</p><p>• Designing and building recovery workflows and putting relevant monitoring and dashboards in place to review key metrics and any new chargeback trends were missed by Prevention team or ML model.</p><p>• Facilitating closely with product and engineering teams on new features implementation. Constantly providing feedbacks about ML performance and the general improvements of fraud detection and prevention.</p><p>• Cooperating with senior management to create relevant reporting on the team/department KPI(s).</p><p>• Prepared in-depth analysis and strategical outlook related to the payment fraud prevention and recovery products on both main and new verticals.</p><p>• Collaborating with 3rd party fraud vendors to improve overall fraud performance.</p>",
             "location": "Amsterdam"
         },
         {
@@ -40,7 +40,7 @@
             "website": "https://booking.com/",
             "startDate": "2018-05-01",
             "endDate": "2021-03-01",
-            "summary": "<p>Designing and implementing workflows.</p><p>Responsible for the detection and elimination of global and local payments trends.</p> <p>Maintain the team's schemas, tables and GIT.</p><p>Built and support main  metrics and visualise them via dashboards.</p><p>Automatisation manual operation tasks via maintain data tools and analyse data.</p><p>Helped the team to grow analytical and technical skills</p><p>Machine learning performance analyses.</p>",
+            "summary": "<p>Detection & Prevention Team:</p><p>• Detected and elimination of fraud global and local payments trends;</p><p>• Investigated a fraud patterns by analysing big data sets;</p><p>• Provided feedbacks about ML performance and the general improvements of fraud detection and prevention.</p><p>Recovery:</p><p>• Designed and implemented workflows and datasets by using pyspark and oozie from 0 to 5 workflows ;</p><p>• Maintained a team's schemas, tables and Git;</p><p>• Automated manual operation tasks by using data tools and analysing data. Reduced case time review on 3 min per case ;</p><p>• Prepared and visualised team metrics by using Tableau and Rstudio;</p><p>• Mentored my colleagues and helped to grow analytical and technical skills from 0 to 5 people use git, python.</p>",
             "location": "Amsterdam"
         },
         {
@@ -49,7 +49,7 @@
             "website": "https://gett.com/",
             "startDate": "2017-08-01",
             "endDate": "2018-05-01",
-            "summary": "<p>Manage the fraud agent's team, the regional fraud analysts personal and professional concerns which include team management, tasks assignments, tasks prioritize, best use of resources, recruitment, training, decision making feedback, best use of tools.</p><p>Serve as a superior decision maker for all fraud concerns and escalations.</p><p>Work with the fraud BI analyst to achieve systems and rules best performance.</p><p>In charge of fraud systems’ performance.</p><p>Cross Function communication with Finance, Data, IT and Legal teams<p>",
+            "summary": "<p>•Leaded team’s globalOKR’s and supported personal development plans.</p><p>• Managed a team of 4 fraud agents and 3 analysts and coordinated training, decision making and launched successful monitoring across 4 countries.</p><p>• Served as a superior decision maker for all fraud concerns and escalations.</p><p>• Developed agent's, regional analysts and team's performance reports by using SQL.</p><p>• Collaborated with the fraud BI analyst to achieved systems and rules best performance.</p><p>• Leaded a fraud systems’ performance.</p>",
             "location": "London"
         },
         {
@@ -58,7 +58,7 @@
             "website": "https://www.gett.com/",
             "startDate": "2015-11-01",
             "endDate": "2017-08-01",
-            "summary": "<p>Release Stakeholder (Development process, version cycles, dependencies).</p><p>Investigate accounts that enter the high-risk fraud queue and aim to make accurate decisions on these globally.</p><p>Serve as decision maker, Identify and remove fraudulent transactions to prevent loss to company.</p><p>Delivering training for new employees about fraud prevention.</p><p>Managing local RU fraud prevention team (Generate task/ Performance monitoring).</p><p>Financial focal point of future releases, manage bugs fix status and estimate currently problems.</p>",
+            "summary": "<p>Released Stakeholder (Development process, version cycles, dependencies).</p><p>Investigated accounts that enter the high-risk fraud queue and aim to make accurate decisions on these globally.</p><p>Served as decision maker, Identify and remove fraudulent transactions to prevent loss to company.</p><p>Delivered training for new employees about fraud prevention.</p><p>Managed local RU fraud prevention team (Generate task/ Performance monitoring).</p><p>Financial focal point of future releases, manage bugs fix status and estimate currently problems.</p>",
             "location": "Moscow"
         }
     ],
