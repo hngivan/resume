@@ -60,6 +60,22 @@
             "endDate": "2017-08-01",
             "summary": "<p>Released Stakeholder (Development process, version cycles, dependencies).</p><p>Investigated accounts that enter the high-risk fraud queue and aim to make accurate decisions on these globally.</p><p>Served as decision maker, Identify and remove fraudulent transactions to prevent loss to company.</p><p>Delivered training for new employees about fraud prevention.</p><p>Managed local RU fraud prevention team (Generate task/ Performance monitoring).</p><p>Financial focal point of future releases, manage bugs fix status and estimate currently problems.</p>",
             "location": "Moscow"
+        },
+        {
+            "name": "Forex Club",
+            "position": "Analyst Financial Audit and Payment Systems Department",
+            "website": "https://www.fxclub.org/",
+            "startDate": "2012-08-01",
+            "endDate": "2015-10-01",
+            "location": "Moscow"
+        },
+        {
+            "name": "Tinkoff Bank",
+            "position": "Specialist Dispute and Payment Risk Department",
+            "website": "https://www.tinkoff.ru/",
+            "startDate": "2012-03-01",
+            "endDate": "2012-07-01",
+            "location": "Moscow"
         }
     ],
     "education": [
