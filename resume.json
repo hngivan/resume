@@ -4,10 +4,9 @@
     },
     "basics": {
         "name": "Ivan Prokofev",
-        "label": "Senior Payment Fraud Analyst",
+        "label": "Payment Fraud Lead",
         "image": "https://avatars.githubusercontent.com/u/66312919?v=4",
         "email": "prokofev.ivan@gmail.com",
-        "phone": "+31639397702",
         "birth": {
             "date": "1990-12-11"
         },
@@ -15,8 +14,8 @@
         "location": {
             "address": "",
             "postalCode": "",
-            "city": "Haarlem",
-            "countryCode": "NL",
+            "city": "London",
+            "countryCode": "UK",
             "region": ""
         },
         "profiles": [{
@@ -27,10 +26,20 @@
     },
     "work": [
         {
+            "name": "Bumble.com",
+            "position": "Payment Fraud Lead",
+            "website": "https://bumble.com/",
+            "startDate": "2022-08-01",
+            "endDate": "Present",
+            "summary":"<p>• Managing payment fraud operation team.</p><p>• Facilitating closely with product and engineering teams on new features, inegrations and implementation.</p><p>• Response for Revenue KPIs such as Auth Rate, Chargeback, Defence rate.</p><p>• Maintaining dashboards and implementations new metrics.</p><p>• Analysis ongoing fraud trends and changes on payment side.</p>",
+            "location": "London"
+        },
+        {
             "name": "Booking.com",
             "position": "Senior Payment Fraud Analyst",
             "website": "https://booking.com/",
             "startDate": "2021-03-01",
+            "endDate": "2022-08-01",
             "summary":"<p>• Supporting an operation sub team who is focusing on specific regions. Writing rules to reject risky traffic or reroute to review.</p><p>• Designing and building recovery workflows and putting relevant monitoring and dashboards in place to review key metrics and any new chargeback trends were missed by Prevention team or ML model.</p><p>• Facilitating closely with product and engineering teams on new features implementation. Constantly providing feedbacks about ML performance and the general improvements of fraud detection and prevention.</p><p>• Cooperating with senior management to create relevant reporting on the team/department KPI(s).</p><p>• Prepared in-depth analysis and strategical outlook related to the payment fraud prevention and recovery products on both main and new verticals.</p><p>• Collaborating with 3rd party fraud vendors to improve overall fraud performance.</p>",
             "location": "Amsterdam"
         },
@@ -101,7 +110,8 @@
                 "Apache Spark",
                 "Elastic Search", 
                 "SQL",
-                "Tableau"
+                "Tableau",
+                "Microstrategy"
             ]
         },
         {
@@ -129,7 +139,8 @@
                 "SQL",
                 "Postgres",
                 "MySql",
-                "Hive"
+                "Hive",
+                "Snowflakes"
             ]
         },
         { 
