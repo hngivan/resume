@@ -10,7 +10,7 @@
         "birth": {
             "date": "1990-12-11"
         },
-        "summary":"<p>Payment Fraud Lead with over 10 years of experience working in the fraud prevention and payment domains.</p><p>Conducting in-depth analysis of rules/ML features, setting team metrics, building workflows to simplify operation tasks, mentoring peers and managing incidents. Improving customers and partners interaction experience with payment platform by using advanced analytical tools( i.e PySpark, Python, Tableau, Hive, SQL, Rstudio, Elastic Search).</p>",
+        "summary":"<p>Payment Fraud Lead with over 11 years of experience working in the fraud prevention and payment domains.</p><p>Conducting in-depth analysis of fraud rules and ML features, setting team objectives and metrics, building workflows to simplify operation tasks, mentoring peers and managing incidents. Improving customers and partners interaction experience with payment platform, establish internal reporting and integrating chargeback and refunds in revenue calculation  by using advanced analytical tools( i.e PySpark, Python, Tableau, Hive, SQL, Rstudio, Elastic Search).</p>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -27,11 +27,11 @@
     "work": [
         {
             "name": "Bumble.com",
-            "position": "Payment Fraud Lead",
+            "position": "Payment Fraud & Reporting Lead",
             "website": "https://bumble.com/",
             "startDate": "2022-08-01",
             "endDate": "Present",
-            "summary":"<p>• Managing payment fraud operation team.</p><p>• Facilitating closely with product and engineering teams on new features, inegrations and implementation.</p><p>• Response for Revenue KPIs such as Auth Rate, Chargeback, Defence rate.</p><p>• Maintaining dashboards and implementations new metrics.</p><p>• Analysis ongoing fraud trends and changes on payment side.</p>",
+            "summary":"<p>• Managing payment fraud and reporting operation teams.</p><p>• Facilitating closely with product and engineering teams on new features, integrations and implementations.</p><p>• Responding for Payment & Fraud Revenue KPIs such as Auth Rate, Chargeback Rate, Refund Rate, Defence rate and etc.</p><p>• Maintaining existing dashboards and implementations new one.</p><p>• Analysing ongoing fraud and payment trends and changes on payment side.</p>",
             "location": "London"
         },
         {
